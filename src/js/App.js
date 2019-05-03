@@ -50,7 +50,7 @@ class App extends React.Component {
               (here/there/everywhere) we're ahead of the curve on that one so
               gain traction but on-brand but completeley fresh clear blue water.
               Cross sabers i am dead inside, run it up the flag pole. Tbrand
-              terrorists sacred cow pipeline.{' '}
+              terrorists sacred cow pipeline.
             </Collapsible>
           </div>
         </div>
