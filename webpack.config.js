@@ -57,7 +57,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'React 101 with Petr Tichy aka @ihatetomatoes',
+      title: 'Collapsible Content',
       hash: true,
       template: './src/index.html', // Load a custom template (ejs by default see the FAQ for details)
     }),
