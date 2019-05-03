@@ -17,8 +17,10 @@ class App extends React.Component {
               accusamus terry richardson ad squid. 3 wolf moon officia aute.
             </Collapsible>
             <Collapsible title="Features">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life
-              accusamus terry richardson ad squid. 3 wolf moon officia aute.
+              Anim pariatur cliche reprehenderit,iatur cliche reprehenderit,
+              enim eiusmod high life accusamus terry richardson ad squid. enim
+              eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+              officia aute.
             </Collapsible>
             <Collapsible title="Software">lorem</Collapsible>
           </div>
