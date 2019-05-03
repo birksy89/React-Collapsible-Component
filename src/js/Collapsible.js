@@ -7,10 +7,22 @@ export default class Collapsible extends Component {
     children: PropTypes.string.isRequired,
   };
 
+  state = {
+    isExpanded: false,
+  };
+
+  handleToggle = e => {
+    e.preventDefault();
+    const { isExpanded } = this.state;
+    this.setState({
+      isExpanded: !isExpanded,
+    });
+  };
+
   render() {
     const { title, children } = this.props;
     return (
-      <div className="panel">
+      <div className="panel" onClick={e => this.handleToggle(e)}>
         <div className="panel-heading">
           <h2>{title}</h2>
         </div>
