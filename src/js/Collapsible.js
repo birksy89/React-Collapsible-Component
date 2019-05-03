@@ -21,8 +21,12 @@ export default class Collapsible extends Component {
 
   render() {
     const { title, children } = this.props;
+    const { isExpanded } = this.state;
     return (
-      <div className="panel" onClick={e => this.handleToggle(e)}>
+      <div
+        className={`panel ${isExpanded ? 'is-expanded' : ''}`}
+        onClick={e => this.handleToggle(e)}
+      >
         <div className="panel-heading">
           <h2>{title}</h2>
         </div>
